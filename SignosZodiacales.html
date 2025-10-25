@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Signos Zodiacales</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <style>
+        
+        body {
+            background-color: #f0f8ff; /
+            font-family: 'Inter', sans-serif; 
+            color: #1f2937; 
+            padding: 20px;
+        }
+
+        
+        h1 {
+            text-align: center;
+            color: #1e3a8a; 
+            margin-bottom: 30px;
+            font-size: 2.5rem; 
+            font-weight: 700;
+        }
+
+        
+        .zodiac-grid {
+            list-style: none; /
+            padding: 0;
+            display: grid;
+            
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px; 
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        
+        .zodiac-card {
+            background-color: #ffffff;
+            border: 1px solid #d1d5db; 
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Sombra elegante */
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .zodiac-card:hover {
+            transform: translateY(-5px); 
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+        }
+
+        .zodiac-card h2 {
+            color: #3b82f6; 
+            margin-top: 0;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .zodiac-card img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover; 
+            border-radius: 8px;
+            margin: 10px auto;
+            border: 3px solid #bfdbfe; /
+        }
+
+        .zodiac-card p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi Página de Signos Zodiacales</h1>
+
+    <ol class="zodiac-grid">
+        
+        <li class="zodiac-card">
+            <h2>Aries</h2>
+            <img src="https://i.pinimg.com/originals/2b/ff/43/2bff43c0b5313d1707e591dead51dec5.jpg" onerror="this.onerror=null; this.src='https://placehold.co/150x150/fca5a5/ffffff?text=Aries'" alt="Aries">
+            <p>Aries es un signo de fuego, valiente, enérgico y decidido.</p>
+        </li>
+
+        
+        <li class="zodiac-card">
+            <h2>Tauro</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfNgNxrLXOKG6OAoZ_s2_ID0Wj6gLhzBGiKg&s" onerror="this.onerror=null; this.src='https://placehold.co/150x150/bef264/ffffff?text=Tauro'" alt="Tauro">
+            <p>Tauro es un signo de tierra, paciente, confiable y amante de la estabilidad.</p>
+        </li>
+
+        
+        <li class="zodiac-card">
+            <h2>Géminis</h2>
+            <img src="https://e01-phantom-marca-mx.uecdn.es/f4d7a190548882590da5d801664e5a46/resize/1200/f/webp/mx/assets/multimedia/imagenes/2023/06/11/16865119808321.jpg" onerror="this.onerror=null; this.src='https://placehold.co/150x150/60a5fa/ffffff?text=Géminis'" alt="Géminis">
+            <p>Géminis es un signo de aire, curioso, comunicativo y adaptable.</p>
+        </li>
+
+        
+        <li class="zodiac-card">
+            <h2>Cáncer</h2>
+            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/vanguardiaeluniversal/U2KN7DXR7JCZZO6MM7RXHPWO7Y.jpeg" onerror="this.onerror=null; this.src='https://placehold.co/150x150/94a3b8/ffffff?text=Cáncer'" alt="Cáncer">
+            <p>Cáncer es un signo de agua, sensible, protector y emocional.</p>
+        </li>
+
+        
+        <li class="zodiac-card">
+            <h2>Leo</h2>
+            <img src="https://media.glamour.mx/photos/64b0a9030589c34e947d85cd/4:3/w_2248,h_1686,c_limit/leo.jpg" onerror="this.onerror=null; this.src='https://placehold.co/150x150/fbbf24/ffffff?text=Leo'" alt="Leo">
+            <p>Leo es un signo de fuego, creativo, seguro de sí mismo y generoso.</p>
+        </li>
+
+        
+        <li class="zodiac-card">
+            <h2>Virgo</h2>
+            <img src="https://media.glamour.mx/photos/64e4eedfa466e25cbdb28eaf/4:3/w_2248,h_1686,c_limit/virgo-signo-zodiacal.jpg" onerror="this.onerror=null; this.src='https://placehold.co/150x150/16a34a/ffffff?text=Virgo'" alt="Virgo">
+            <p>Virgo es un signo de tierra, detallista, analítico y responsable.</p>
+        </li>
+
+        
+        <li class="zodiac-card">
+            <h2>Libra</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmtRjQU6tnhs42_mW-zPC9h9dWHdV41FftOA&s" onerror="this.onerror=null; this.src='https://placehold.co/150x150/a78bfa/ffffff?text=Libra'" alt="Libra">
+            <p>Libra es un signo de aire, equilibrado, sociable y amante de la armonía.</p>
+        </li>
+
+        
+        <li class="zodiac-card">
+            <h2>Escorpio</h2>
+            <img src="https://media.glamour.mx/photos/64c17aa7e49bafdd311d29d0/1:1/w_1942,h_1942,c_limit/escorpio-signo-zodiacal.jpg" onerror="this.onerror=null; this.src='https://placehold.co/150x150/dc2626/ffffff?text=Escorpio'" alt="Escorpio">
+            <p>Escorpio es un signo de agua, intenso, apasionado y leal.</p>
+        </li>
+
+        
+        <li class="zodiac-card">
+            <h2>Sagitario</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReMfGAMOZmqDbT1x4spYP5OI-yAchg_iwA6A&s" onerror="this.onerror=null; this.src='https://placehold.co/150x150/f97316/ffffff?text=Sagitario'" alt="Sagitario">
+            <p>Sagitario es un signo de fuego, optimista, aventurero y sincero.</p>
+        </li>
+
+        
+        <li class="zodiac-card">
+            <h2>Capricornio</h2>
+            <img src="https://media.glamour.mx/photos/651b21d9216fd1ab6c74acc2/4:3/w_2588,h_1941,c_limit/capricornio-signo-zodiacal.jpg" onerror="this.onerror=null; this.src='https://placehold.co/150x150/475569/ffffff?text=Capricornio'" alt="Capricornio">
+            <p>Capricornio es un signo de tierra, disciplinado, ambicioso y responsable.</p>
+        </li>
+
+        
+        <li class="zodiac-card">
+            <h2>Acuario</h2>
+            <img src="https://media.glamour.mx/photos/650db71f85806084888b4001/3:2/w_2913,h_1942,c_limit/acuario-signo-zodiacal.jpg" onerror="this.onerror=null; this.src='https://placehold.co/150x150/06b6d4/ffffff?text=Acuario'" alt="Acuario">
+            <p>Acuario es un signo de aire, original, independiente y humanitario.</p>
+        </li>
+
+        
+        <li class="zodiac-card">
+            <h2>Piscis</h2>
+            <img src="https://media.glamour.mx/photos/650874b3eda5a1b6f204cd7d/16:9/w_2560%2Cc_limit/signo-pisicis.jpg" onerror="this.onerror=null; this.src='https://placehold.co/150x150/2563eb/ffffff?text=Piscis'" alt="Piscis">
+            <p>Piscis es un signo de agua, compasivo, soñador y artístico.</p>
+        </li>
+    </ol>
+</body>
+</html>
